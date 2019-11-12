@@ -1,1 +1,6 @@
-// TODO: add and export your own actions
+export default function setActiveCity(city) {
+  return {
+    type: 'SET_ACTIVE_CITY',
+    payload: city
+  };
+}
